@@ -1,0 +1,38 @@
+.leaderTable
+{
+    border-collapse: collapse;
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: 1px solid black;
+    width: 70%;
+    background-color: rgba(127, 127, 127, 0);
+}
+
+.tableHeader
+{
+    font-size: 4vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #212121;
+    background-color: #005F6C;
+}
+
+.contents
+{
+    font-size: 3vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #212121;
+    background-color: #008295;
+}
+
+.highlight
+{
+    border: 2px solid orangered;
+    background-color: rgba(255, 147, 113, 0.6);
+}
+
+.contents_dark {
+    background-color: #007C8D;
+}

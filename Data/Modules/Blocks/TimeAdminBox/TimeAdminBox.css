@@ -1,0 +1,45 @@
+.messageBox
+{
+    color: white;
+    font-family: Jura,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border: 1px solid #016977;
+    background-color: #008295e3;
+    position: fixed;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    width: auto;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.messageBoxTitle
+{
+    margin-top: 10px;
+    font-size: 5vh;
+}
+
+.messageArea
+{
+    font-size: x-large;
+}
+
+.buttonMessageOK
+{
+    outline: none;
+    height: 5vh;
+    margin: 10px;
+    font-size: 3vh;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    background: #005f6c;
+    color: white;
+    top: 4px;
+    font-family: Jura,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 7px;
+}

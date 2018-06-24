@@ -1,0 +1,19 @@
+body {
+    background-image: url("/Resources/Textures/hackers.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /*background: #edeef0;  #CFDBE5*/
+}
+
+.body {
+    height: 100vh;
+    min-height: 330px;
+    min-width: 300px;
+    margin: 0;
+}
+
+.body {
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}

@@ -1,0 +1,191 @@
+.adminForm {
+    width: 55vw;
+    margin: auto;
+}
+
+.adminForm__testName {
+    background: #cfdbe5d1;
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    outline: none;
+    border-radius: 10px 10px 0 0;
+    border: none;
+    margin-top: 8vh;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.adminForm__testAnswer {
+    background: #cfdbe5d1;
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    outline: none;
+    border-radius: 0 0 10px 10px;
+    border: none;
+    margin-top: 0.5vh;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.adminForm__testText {
+    font-size: 17px;
+    background: #ffffffd1;
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    outline: none;
+    border: none;
+    margin-top: 0.9vh;
+    width: 100%;
+    padding: 5px 0 5px 5px;
+    height: 100px;
+}
+
+.adminForm__testAdminButton {
+    text-align: center;
+}
+
+.adminForm__button {
+    border: none;
+    height: 44px;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+    width: 20vw;
+}
+
+.adminForm__button-delete {
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 100px;
+    background: #ff837d;
+    margin-top: 2vh;
+    border: none;
+    height: 56px;
+    font-size: 3vh;
+    cursor: pointer;
+    outline: none;
+    width: 13vw;
+    color: white;
+}
+
+.adminForm__button-change {
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 100px;
+    background: #3AAACF;
+    margin-top: 2vh;
+    border: none;
+    height: 56px;
+    font-size: 3vh;
+    cursor: pointer;
+    outline: none;
+    width: 13vw;
+    color: white;
+}
+
+.button-AddTest {
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-right: 2vw;
+    float: right;
+    border-radius: 100px;
+    background: #3AAACF;
+    margin-top: 2vh;
+    border: none;
+    height: 56px;
+    font-size: 3vh;
+    cursor: pointer;
+    outline: none;
+    width: 13vw;
+    color: white;
+}
+
+.adminButtons_button {
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 20px;
+    background: #3AAACF;
+    border: none;
+    height: 56px;
+    font-size: 3vh;
+    cursor: pointer;
+    outline: none;
+    width: 22vw;
+    color: white;
+}
+
+.adminButtons {
+    margin: auto;
+}
+
+.button-changeTimeTestAdmin {
+    margin-left: 5vw;
+}
+
+
+.button-addTestAdmin {
+    margin-right: 5vw;
+}
+
+.changeTimeTest {
+    margin-top: 8vh;
+}
+
+.changeTimeTestForm {
+    font-size: 4vh;
+}
+
+.changeTimeTestForm_timeForm {
+    margin-top: 2vh;
+}
+
+.changeTimeTestForm_textTime {
+    margin-left: 1vw;
+    height: 25px;
+    width: 70px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 5px 0 5px 5px;
+    font-size: 3.5vh;
+    background: #ffffffd1;
+}
+
+.end-time {
+    margin-left: 2vh;
+}
+
+.button-AddTest-time {
+    margin-right: 0;
+}
+
+.button-AddTest:hover {
+    background-color: #3195B6;
+}
+
+.adminForm__button-change:hover {
+    background-color: #3195B6;
+}
+
+.adminButtons_button:hover {
+    background-color: #3195B6;
+}
+
+.adminForm__button-delete:hover {
+    background-color: #dc746e;
+}

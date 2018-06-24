@@ -1,0 +1,11 @@
+div(class="wrapper wrapper_test")
+    div(class="wrapper__main")
+        div(class="allTestForm")
+            each menu in menus
+                div(class="space")
+                    div(class="testForm")
+                        div(class="testForm__testName testForm__testName_text-center") #{menu.name}
+                        div(class="testForm__testText") #{menu.text}
+                        div(class="testForm__testAnswer")
+                            input(class="testForm__testInput" id=menu.id type="text" placeholder="Введите ответ и нажмите отправить")
+                            button(class="testForm__testButton" data-id=menu.id) Отправить

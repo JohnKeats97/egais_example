@@ -1,0 +1,11 @@
+.header2 {
+    user-select: none;
+    font-size: 7vh;
+    padding-top: 23vh;
+    text-align: center;
+    outline: none;
+}
+
+.header2_padding-top-16vh {
+    padding-top: 16vh;
+}

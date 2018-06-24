@@ -1,0 +1,9 @@
+include ../BaseMenuView/BaseMenuHeader.pug
+
+div(class="wrapper wrapper_menu")
+    div(class="wrapper__header")
+        h2(class="header2") #{title}
+    div(class="wrapper__main")
+        each menu in menus
+            button(class=menu.class data-id=menu.id) #{menu.name}
+

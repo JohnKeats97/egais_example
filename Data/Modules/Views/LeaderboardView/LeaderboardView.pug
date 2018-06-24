@@ -1,0 +1,44 @@
+include ../BaseMenuView/BaseMenuHeader.pug
+
+
+div(class="wrapper wrapper_menu wrapper_menu_width-40")
+    div(class="wrapper__header")
+        h2(class="header2 header2_padding-top-16vh") Таблица лидеров
+    div(class="wrapper__main")
+
+        - var count = 0;
+        if title != "0"
+            table.leaderTable
+                thead
+                    tr
+                        th.tableHeader Позиция
+                        th.tableHeader Имя
+                        th.tableHeader Счет
+
+                tbody
+                    each player in players
+                        - var dark = count % 2;
+                        - if(count == highlightIndex && dark)
+                            tr.highlight
+                                th.contents.contents_dark #{player.position}
+                                th.contents.contents_dark #{player.login}
+                                th.contents.contents_dark #{player.score}
+                        - else if(count == highlightIndex)
+                            tr.highlight
+                                th.contents #{player.position}
+                                th.contents #{player.login}
+                                th.contents #{player.score}
+                        - else if(dark)
+                            tr
+                                th.contents.contents_dark #{player.position}
+                                th.contents.contents_dark #{player.login}
+                                th.contents.contents_dark #{player.score}
+                        - else
+                            tr
+                                th.contents #{player.position}
+                                th.contents #{player.login}
+                                th.contents #{player.score}
+
+                        - count++;
+
+include ../BaseMenuView/BaseMenuFoot.pug

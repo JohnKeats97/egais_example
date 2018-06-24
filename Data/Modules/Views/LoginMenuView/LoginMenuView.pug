@@ -1,0 +1,17 @@
+include ../BaseMenuView/BaseMenuHeader.pug
+
+div(class="wrapper wrapper_menu")
+    div(class="wrapper__header")
+        h2(class="header2") Добро пожаловать
+    div(class="wrapper__main")
+
+        form.loginForm(name="loginForm")
+            table.alignCenter
+                tbody
+                    input(class="input" type="email" placeholder="Email" name="loginMailInput" value="")
+                    input(class="input" type="password" placeholder="Пароль" name="loginPasswordInput" value="")
+                    tr
+                        th(colspan=3)
+                            input(type="submit" value="Войти" name="loginSubmit" class="button").alignCenter.submitButton.submitButton-login
+
+include ../BaseMenuView/BaseMenuFoot.pug

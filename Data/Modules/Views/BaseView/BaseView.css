@@ -1,0 +1,5 @@
+.baseView
+{
+    position: absolute;
+    transition: opacity 1s;
+}

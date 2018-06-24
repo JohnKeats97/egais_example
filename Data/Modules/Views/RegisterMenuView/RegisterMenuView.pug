@@ -1,0 +1,19 @@
+include ../BaseMenuView/BaseMenuHeader.pug
+
+div(class="wrapper wrapper_menu")
+    div(class="wrapper__header")
+        h2(class="header2 header2_padding-top-16vh") Добро пожаловать
+    div(class="wrapper__main")
+
+        form.loginForm(name="registerForm")
+            table.alignCenter
+                tbody
+                    input(class="input" type="email" placeholder="Email" name="registerMailInput" value="")
+                    input(class="input" type="text" placeholder="Имя" value="" name="registerNicknameInput")
+                    input(class="input" type="password" placeholder="Пароль" value="" name="registerPasswordInput")
+                    input(class="input" type="password" placeholder="Повторите пароль" value="" name="registerRepeatPasswordInput")
+                    tr
+                        th(colspan=3)
+                            input(type="submit" value="Подтвердить" name="registerSubmit" class="button").alignCenter.submitButton
+
+include ../BaseMenuView/BaseMenuFoot.pug

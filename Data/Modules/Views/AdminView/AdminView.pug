@@ -1,0 +1,43 @@
+div(class="wrapper wrapper_test")
+    div(class="wrapper__header")
+        h2(class="header2") Панель Администратора
+    div(class="wrapper__main")
+        dev(class="adminButtons")
+            button(class="button-addTestAdmin adminButtons_button") Добавить вопрос
+            button(class="button-changeDeleteTestAdmin adminButtons_button") Изменить и удалить
+            button(class="button-changeTimeTestAdmin adminButtons_button") Изменить дату
+
+        - if (title == 1)
+            div(class="adminForm addTest")
+                input(class="adminForm__testName name-AddTest" type="text" value="" placeholder="Название")
+                textarea(class="adminForm__testText text-AddTest" placeholder="Текст вопроса")
+                input(class="adminForm__testAnswer answer-AddTest" type="text" value="" placeholder="Ответ")
+                button(class="button-AddTest") Добавить
+
+        - if (title == 2)
+            div(class="changeDeleteTest")
+            each menu in menus
+                div(class="adminForm" id=menu.id)
+                    input(class="adminForm__testName" type="text" value=menu.name placeholder = "Название")
+                    textarea(class="adminForm__testText" placeholder="Текст вопроса") #{menu.text}
+                    input(class="adminForm__testAnswer" type="text" value=menu.answer placeholder="Ответ")
+                    div(class="adminForm__testAdminButton")
+                        button(class="adminForm__button adminForm__button-delete" data-id=menu.id) Удалить
+                        button(class="adminForm__button adminForm__button-change" data-id=menu.id) Изменить
+
+        - if (title == 3)
+            div(class="adminForm changeTimeTest")
+                div(class="changeTimeTestForm") Введите новые даты проведения соревнования (число, месяц, год)
+                    div(class="changeTimeTestForm_timeForm") Начало тестирования:
+                        input(class="changeTimeTestForm_textTime" type="text" value=start.d)
+                        input(class="changeTimeTestForm_textTime" type="text" value=start.m)
+                        input(class="changeTimeTestForm_textTime" type="text" value=start.y)
+                    div(class="changeTimeTestForm_timeForm end-time") Конец тестирования:
+                        input(class="changeTimeTestForm_textTime" type="text" value=stop.d)
+                        input(class="changeTimeTestForm_textTime" type="text" value=stop.m)
+                        input(class="changeTimeTestForm_textTime" type="text" value=stop.y)
+                button(class="button-AddTest button-AddTest-time") Сохранить
+
+
+
+

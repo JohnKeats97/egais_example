@@ -1,0 +1,31 @@
+.viewTitle
+{
+    font-family: 'Indie Flower', cursive;
+    font-size: 500%;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 1%;
+    color: #12212a;
+}
+
+
+.smallButton
+{
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 200%;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+    color: white;
+}
+
+.smallButton:hover
+{
+    font-size: 240%;
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+.aboutText
+{
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.aboutLine
+{
+    text-align: center;
+    font-size: 5vh;
+}

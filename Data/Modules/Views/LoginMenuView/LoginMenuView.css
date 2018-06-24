@@ -1,0 +1,41 @@
+.loginForm
+{
+}
+
+.info
+{
+    font-weight: 600;
+    font-family: 'Indie Flower', cursive;
+    font-size: 200%;
+}
+
+.error
+{
+    font-weight: 600;
+    font-family: 'Indie Flower', cursive;
+    font-size: 200%;
+    color: darkred;
+}
+
+.submitButton
+{
+    height: 50px;
+    width: 16vw;
+}
+
+.submitButton-login
+{
+    height: 50px;
+    width: 12vw;
+}
+
+.alignCenter
+{
+    margin: auto;
+}
+
+.inputForm
+{
+    width: 100%;
+    height: 19px;
+}
